@@ -21,15 +21,15 @@ Add this string to your array of providers in app/config/app.php
 ### Publishing The Configuration
 Publish the configurations for this package in order to change them to your liking:
 
-    php artisan config:publish davzie/laravel-bootstrap
+    php artisan config:publish dwoodard/laravel-cms
 
 ### Publishing The Assets
 You need assets bro!
 
-    php artisan asset:publish davzie/laravel-bootstrap
+    php artisan asset:publish dwoodard/laravel-cms
 
 ### Migrating and Seeding The Database
 Seed the database, this pretty much just seeds an example user and settings. Migration is pretty simple, ensure your database config is setup and run this:
 
-    php artisan migrate --package="davzie/laravel-bootstrap"
+    php artisan migrate --package="dwoodard/laravel-cms"
     php artisan db:seed --class="Davzie\LaravelBootstrap\Seeds\DatabaseSeeder"
