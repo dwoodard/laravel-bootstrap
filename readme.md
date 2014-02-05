@@ -11,7 +11,7 @@ It uses Redactor JS for content editing and provides a really simple way to prot
 ## Composer Require
 Nice and simple
 
-    "davzie/laravel-bootstrap": "1.*"
+    "dwoodard/laravel-cms": "dev-master"
 
 ### Linking The Service Provider To Your Installation
 Add this string to your array of providers in app/config/app.php
